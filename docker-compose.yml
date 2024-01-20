@@ -1,0 +1,82 @@
+version: '3.7'
+services: 
+
+  posts:
+    build: 
+      context: ./posts
+      dockerfile: Dockerfile
+    image: posts
+    container_name: posts
+    environment:
+      - EVENT_BUS_URL=http://event-bus:4005/events
+    ports:
+      - "4000:4000"
+    networks:
+      - app-network
+  
+  comments:
+    build: 
+      context: ./comments
+      dockerfile: Dockerfile
+    image: comments
+    container_name: comments
+    environment:
+      - EVENT_BUS_URL=http://event-bus:4005/events
+    ports:
+      - "4001:4001"
+    depends_on:
+      - posts
+    networks:
+      - app-network
+
+  query:
+    build: 
+      context: ./query
+      dockerfile: Dockerfile
+    image: query
+    container_name: query
+    ports:
+      - "4002:4002"
+    depends_on:
+      - comments
+    networks:
+      - app-network
+
+  event-bus:
+    build: 
+      context: ./event-bus
+      dockerfile: Dockerfile
+    image: event-bus
+    container_name: event-bus
+    environment:
+      - POSTS_URL=http://posts:4000/events
+      - COMMENTS_URL=http://comments:4001/events
+      - QUERY_URL=http://query:4002/events
+    ports:
+      - "4005:4005"
+    depends_on:
+      - query
+    networks:
+      - app-network
+
+  client: 
+    build: 
+      context: ./client
+      dockerfile: Dockerfile
+    image: client
+    container_name: client
+    # environment:
+    #   - REACT_APP_POSTS_CONTAINER_URL=posts
+    #   - REACT_APP_COMMENTS_CONTAINER_URL=comments
+    #   - REACT_APP_QUERY_CONTAINER_URL=query
+    ports:
+      - "3000:3000"
+    depends_on:
+      - event-bus
+    networks:
+      - app-network
+  
+networks:
+  app-network:
+    driver: bridge
+
