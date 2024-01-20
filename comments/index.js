@@ -80,3 +80,5 @@ app.post("/events", (req, res) => {
 app.listen(4001, () => {
     console.log("Server listens on port 4001");
 })
+
+module.exports = app;

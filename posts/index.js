@@ -57,3 +57,5 @@ app.listen(4000, () => {
     console.log("Server listens on port 4000");
 });
 
+module.exports = app;
+

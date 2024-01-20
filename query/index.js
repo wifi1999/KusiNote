@@ -8,8 +8,10 @@ const logger = require('./logger');
 dotenv.config();
 const app = express();
 
-mongoose.connect(process.env.MONGO_URL);
-mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
+if(process.env.NODE_ENV !== 'test'){
+    mongoose.connect(process.env.MONGO_URL);
+    mongoose.connection.on("connected", () => console.log("Connected to MongoDB"));
+}
 
 const querySchema = new mongoose.Schema({
     id: String,
@@ -114,3 +116,5 @@ app.post("/events", async (req, res) => {
 });
 
 app.listen(4002, () => console.log("Server listens on port 4002"));
+
+module.exports = { app, QueryModel };

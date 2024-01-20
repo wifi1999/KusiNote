@@ -1,0 +1,74 @@
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: e05b8c81"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: 62e595c9"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: af4edecf"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: be17563f"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: 4f325408"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: 36301bf9"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: fff33fd9"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: 62e595c9"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: af4edecf"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: be17563f"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: 0cbfc4c6"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: 0fc186a9"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
+{"level":"info","message":"Successfully added a post with id: 46308313"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
+{"level":"info","message":"Successfully added a post with id: def4393e"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
+{"level":"info","message":"Received event: MockEvent"}
+{"level":"info","message":"Successfully added a post with id: eb624acd"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
+{"level":"info","message":"Received event: MockEvent"}
+{"level":"info","message":"Successfully added a post with id: 12b99405"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
+{"level":"info","message":"Received event: MockEvent"}
+{"level":"info","message":"Successfully added a post with id: c21d2ad1"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
+{"level":"info","message":"Received event: MockEvent"}
+{"level":"info","message":"Successfully added a post with id: f1c3ee80"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
+{"level":"info","message":"Received event: MockEvent"}
+{"level":"info","message":"Successfully added a post with id: 847cb5e2"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
+{"level":"info","message":"Received event: MockEvent"}
+{"level":"info","message":"Successfully added a post with id: c848248d"}
+{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
+{"level":"info","message":"Received event: MockEvent"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: 0cbfc4c6"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: 0fc186a9"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: 4812554e"}
+{"level":"info","message":"Received event: CommentCreated"}
+{"level":"info","message":"Received event: CommentDeleted"}
+{"level":"info","message":"Received event: CommentCreated"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: 4812554e"}
