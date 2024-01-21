@@ -28,7 +28,7 @@ app.post('/posts', async(req, res) => {
         logger.info(`Successfully added a post with id: ${id}`)
         res.status(200).json({ "message": "Successfully added a post" });
     } catch(err){
-        logger.error(`Failure adding a post: ${err.message} with id: ${id}, `)
+        logger.error(`Failure adding a post: ${err.message}`)
         res.status(400).json({ "error" : err.message });
     }
 });
@@ -36,19 +36,21 @@ app.post('/posts', async(req, res) => {
 // DELETE A POST
 app.delete('/posts/:id', async(req, res) => {
     try{
-        await axios.post(process.env.EVENT_BUS_URL, {
+        const response = await axios.post(process.env.EVENT_BUS_URL, {
             type: "PostDeleted", 
             data: { id: req.params.id }
-        });
+        });   
         logger.info(`Successfully deleted a post with id: ${req.params.id}`);
         res.status(200).json({ "message": "Successfully deleted a post" });
+      
     } catch(err){
-        logger.error(`Failure deleting a post: ${err.message}`);
-        res.status(400).json({ "error" : err.message });
+        logger.error(`Failure deleting a post: ${err.message} or Post Not Found`);
+        res.status(400).json({ "error" : err.message + " or Post Not Found"});
     }
 });
 
 app.post("/events", (req, res) => {
+    
     logger.info(`Received event: ${req.body.type}`);
     res.json({});
 });

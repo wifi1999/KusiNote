@@ -1,74 +1,32 @@
 {"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Successfully added a post with id: e05b8c81"}
+{"level":"info","message":"Successfully added a post with id: 79f3ce91"}
 {"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
+{"level":"info","message":"Successfully deleted a post with id: 79f3ce91"}
 {"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
+{"level":"error","message":"Failure deleting a post: Request failed with status code 404 or Post Not Found"}
+{"level":"info","message":"Received event: Invalid Event"}
+{"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Successfully deleted a post with id: e0f87ffd"}
 {"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Successfully added a post with id: 62e595c9"}
+{"level":"info","message":"Successfully added a post with id: 1d08f2e0"}
 {"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
+{"level":"info","message":"Successfully deleted a post with id: 1d08f2e0"}
 {"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Successfully added a post with id: af4edecf"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
-{"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Successfully added a post with id: be17563f"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: 4f325408"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: 36301bf9"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: fff33fd9"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: 62e595c9"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: af4edecf"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: be17563f"}
-{"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Successfully added a post with id: 0cbfc4c6"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c81"}
-{"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Successfully added a post with id: 0fc186a9"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
-{"level":"info","message":"Successfully added a post with id: 46308313"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
-{"level":"info","message":"Successfully added a post with id: def4393e"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
-{"level":"info","message":"Received event: MockEvent"}
-{"level":"info","message":"Successfully added a post with id: eb624acd"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
-{"level":"info","message":"Received event: MockEvent"}
-{"level":"info","message":"Successfully added a post with id: 12b99405"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
-{"level":"info","message":"Received event: MockEvent"}
-{"level":"info","message":"Successfully added a post with id: c21d2ad1"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
-{"level":"info","message":"Received event: MockEvent"}
-{"level":"info","message":"Successfully added a post with id: f1c3ee80"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
-{"level":"info","message":"Received event: MockEvent"}
-{"level":"info","message":"Successfully added a post with id: 847cb5e2"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
-{"level":"info","message":"Received event: MockEvent"}
-{"level":"info","message":"Successfully added a post with id: c848248d"}
-{"level":"info","message":"Successfully deleted a post with id: e05b8c82"}
-{"level":"info","message":"Received event: MockEvent"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: 0cbfc4c6"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: 0fc186a9"}
-{"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Successfully added a post with id: 4812554e"}
+{"level":"info","message":"Successfully added a post with id: 831bb351"}
 {"level":"info","message":"Received event: CommentCreated"}
+{"level":"info","message":"Received event: CommentCreated"}
+{"level":"info","message":"Received event: CommentUpdated"}
+{"level":"info","message":"Received event: CommentUpdated"}
 {"level":"info","message":"Received event: CommentDeleted"}
-{"level":"info","message":"Received event: CommentCreated"}
 {"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully deleted a post with id: 4812554e"}
+{"level":"info","message":"Successfully deleted a post with id: 831bb351"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: 8b8d2ac5"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: e2cc3184"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: 1b8f68b7"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: fe7b6415"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Successfully added a post with id: e206773b"}

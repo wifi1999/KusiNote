@@ -30,7 +30,7 @@ app.post('/posts/:id/comments', async(req, res) => {
         logger.info(`Successfully created a comment with postId: ${req.params.id}, commentId: ${id}, content: ${ req.body.content }`)
         res.status(200).json({ "message" : "Successfully added a comment" });
     } catch(err){
-        logger.error(`Failure creating comment: ${err.message}`);
+        logger.error(`Failure creating comment: ${err.message} or Post Not Found or Comment Not Found`);
         res.status(400).json({ "error" : err.messsage });
     }
 });
@@ -49,7 +49,7 @@ app.put('/posts/:id/comments', async(req, res) => {
         logger.info(`Successfully updated a comment with postId: ${req.params.id}, commentId: ${req.body.id}, content: ${req.body.content}`);
         res.status(200).json({ "message" : "Successfully updated a comment" });
     } catch(err){
-        logger.error(`Failure updating comment: ${err.message}`);
+        logger.error(`Failure updating comment: ${err.message} or Post Not Found or Comment Not Found`);
         res.status(400).json({ "error": err.message });
     }
 });
@@ -67,7 +67,7 @@ app.delete('/posts/:id/comments', async(req, res) => {
         logger.info(`Successfully deleted a comment with postId: ${req.params.id}, commentId: ${req.body.id}`);
         res.status(200).json({ "message" : "Successfully deleted a comment"});
     } catch(err){
-        logger.error(`Failure deleting comment: ${err.message}`);
+        logger.error(`Failure deleting comment: ${err.message} or Post Not Found or Comment Not Found`);
         res.status(400).json({ "error" : err.message });
     }
 });

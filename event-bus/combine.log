@@ -1,5 +1,7 @@
 {"level":"info","message":"Event successfully posted to services"}
 {"level":"info","message":"Event successfully posted to services"}
+{"level":"error","message":"Error posting event: Request failed with status code 404 or Post Not Found or Comment Not Found or Event Not Found"}
+{"level":"error","message":"Error posting event: Request failed with status code 404 or Post Not Found or Comment Not Found or Event Not Found"}
 {"level":"info","message":"Event successfully posted to services"}
 {"level":"info","message":"Event successfully posted to services"}
 {"level":"info","message":"Event successfully posted to services"}
@@ -8,20 +10,6 @@
 {"level":"info","message":"Event successfully posted to services"}
 {"level":"info","message":"Event successfully posted to services"}
 {"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"error","message":"Error posting event: Network Error"}
-{"level":"info","message":"Event successfully posted to services"}
-{"level":"error","message":"Error posting event: Network Error"}
 {"level":"info","message":"Event successfully posted to services"}
 {"level":"info","message":"Event successfully posted to services"}
 {"level":"info","message":"Event successfully posted to services"}

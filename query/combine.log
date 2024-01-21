@@ -1,49 +1,33 @@
-{"level":"info","message":"PostCreated query works correctly with postId: e05b8c81, title: Test post"}
-{"level":"info","message":"PostDeleted query works correctly with postId: e05b8c81"}
-{"level":"info","message":"PostDeleted query works correctly with postId: e05b8c81"}
-{"level":"info","message":"PostCreated query works correctly with postId: 62e595c9, title: Test post"}
-{"level":"info","message":"PostDeleted query works correctly with postId: e05b8c81"}
-{"level":"info","message":"PostDeleted query works correctly with postId: e05b8c81"}
-{"level":"info","message":"PostCreated query works correctly with postId: af4edecf, title: Test post"}
-{"level":"info","message":"PostDeleted query works correctly with postId: e05b8c81"}
-{"level":"info","message":"PostCreated query works correctly with postId: be17563f, title: Test post"}
-{"level":"info","message":"PostDeleted query works correctly with postId: e05b8c81"}
+{"level":"info","message":"PostCreated query works correctly with postId: 79f3ce91, title: This is the fake post"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"PostDeleted query works correctly with postId: 79f3ce91"}
+{"level":"error","message":"Post Not Found For Post Deletion"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"error","message":"Event Not Found"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"PostDeleted query works correctly with postId: e0f87ffd"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"PostCreated query works correctly with postId: 1d08f2e0, title: ds"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"PostDeleted query works correctly with postId: 1d08f2e0"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"PostCreated query works correctly with postId: 831bb351, title: ds"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"CommentCreated query works correctly with postId: 831bb351, commentId: 5b5bd43b, content: ds"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"CommentCreated query works correctly with postId: 831bb351, commentId: e39c6d18, content: ds"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"CommenetUpdated query work correctly with postId: 831bb351, commentId: 5b5bd43b, new content: dsd"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"CommenetUpdated query work correctly with postId: 831bb351, commentId: e39c6d18, new content: dsds"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"CommentDeleted query works correctly with postId: 831bb351, commentId: 5b5bd43b"}
+{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"PostDeleted query works correctly with postId: 831bb351"}
 {"level":"info","message":"Successfully get all posts"}
 {"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostDeleted query works correctly with postId: 4f325408"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostDeleted query works correctly with postId: 36301bf9"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostDeleted query works correctly with postId: fff33fd9"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostDeleted query works correctly with postId: 62e595c9"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostDeleted query works correctly with postId: af4edecf"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostDeleted query works correctly with postId: be17563f"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostCreated query works correctly with postId: 0cbfc4c6, title: Test post"}
-{"level":"info","message":"PostDeleted query works correctly with postId: e05b8c81"}
-{"level":"info","message":"PostCreated query works correctly with postId: 0fc186a9, title: Test post"}
-{"level":"info","message":"PostDeleted query works correctly with postId: e05b8c82"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostDeleted query works correctly with postId: 0cbfc4c6"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostDeleted query works correctly with postId: 0fc186a9"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostCreated query works correctly with postId: 123, title: Test Post"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostCreated query works correctly with postId: 4812554e, title: s"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"CommentCreated query works correctly with postId: 4812554e, commentId: 762020cc, content: d"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"CommentDeleted query works correctly with postId: 4812554e, commentId: 762020cc"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"CommentCreated query works correctly with postId: 4812554e, commentId: 9f8e563c, content: d"}
-{"level":"info","message":"Successfully get all posts"}
-{"level":"info","message":"PostDeleted query works correctly with postId: 4812554e"}
-{"level":"info","message":"Successfully get all posts"}
+{"level":"info","message":"PostCreated query works correctly with postId: 8b8d2ac5, title: This is the fake post"}
+{"level":"info","message":"PostCreated query works correctly with postId: e2cc3184, title: This is the fake post"}
+{"level":"info","message":"PostCreated query works correctly with postId: 1b8f68b7, title: This is the fake post"}
+{"level":"info","message":"PostCreated query works correctly with postId: fe7b6415, title: This is the fake post"}
+{"level":"info","message":"PostCreated query works correctly with postId: e206773b, title: This is the fake post"}

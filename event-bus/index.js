@@ -21,9 +21,10 @@ app.post('/events', async (req, res) => {
 
         logger.info('Event successfully posted to services');
         res.status(200).json({ status: 'OK' });
+    
     } catch (err) {
-        logger.error(`Error posting event: ${err.message}`);
-        res.status(400).json({ "error": err.message }); 
+        logger.error(`Error posting event: ${err.message} or Post Not Found or Comment Not Found or Event Not Found`);
+        res.status(404).json({ "error": err.message + "or Post Not Found or Comment Not Found or Event Not Found" }); 
     }
 });
 

@@ -1,43 +1,24 @@
 {"level":"info","message":"Received event: PostCreated"}
 {"level":"info","message":"Received event: PostDeleted"}
 {"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Received event: Invalid Event"}
 {"level":"info","message":"Received event: PostDeleted"}
 {"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Received event: PostCreated"}
-{"level":"info","message":"Received event: PostDeleted"}
-{"level":"info","message":"Successfully created a comment with postId: testPostId, commentId: 32ee0741, content: Test comment"}
-{"level":"info","message":"Successfully updated a comment with postId: testPostId, commentId: testCommentId, content: Updated comment"}
-{"level":"info","message":"Successfully deleted a comment with postId: testPostId, commentId: testCommentId"}
-{"level":"info","message":"Received event: TestEvent"}
-{"level":"info","message":"Successfully created a comment with postId: testPostId, commentId: c2cd2623, content: Test comment"}
-{"level":"info","message":"Successfully updated a comment with postId: testPostId, commentId: testCommentId, content: Updated comment"}
-{"level":"info","message":"Successfully deleted a comment with postId: testPostId, commentId: testCommentId"}
-{"level":"info","message":"Received event: TestEvent"}
-{"level":"info","message":"Successfully created a comment with postId: testPostId, commentId: fddbf9e2, content: Test comment"}
-{"level":"info","message":"Successfully updated a comment with postId: testPostId, commentId: testCommentId, content: Updated comment"}
-{"level":"info","message":"Successfully deleted a comment with postId: testPostId, commentId: testCommentId"}
-{"level":"info","message":"Received event: TestEvent"}
-{"level":"info","message":"Successfully created a comment with postId: testPostId, commentId: a07f16ca, content: Test comment"}
-{"level":"info","message":"Received event: PostDeleted"}
 {"level":"info","message":"Received event: PostDeleted"}
 {"level":"info","message":"Received event: PostCreated"}
 {"level":"info","message":"Received event: CommentCreated"}
-{"level":"info","message":"Successfully created a comment with postId: 4812554e, commentId: 762020cc, content: d"}
+{"level":"info","message":"Successfully created a comment with postId: 831bb351, commentId: 5b5bd43b, content: ds"}
+{"level":"info","message":"Received event: CommentCreated"}
+{"level":"info","message":"Successfully created a comment with postId: 831bb351, commentId: e39c6d18, content: ds"}
+{"level":"info","message":"Received event: CommentUpdated"}
+{"level":"info","message":"Successfully updated a comment with postId: 831bb351, commentId: 5b5bd43b, content: dsd"}
+{"level":"info","message":"Received event: CommentUpdated"}
+{"level":"info","message":"Successfully updated a comment with postId: 831bb351, commentId: e39c6d18, content: dsds"}
 {"level":"info","message":"Received event: CommentDeleted"}
-{"level":"info","message":"Successfully deleted a comment with postId: 4812554e, commentId: 762020cc"}
-{"level":"info","message":"Received event: CommentCreated"}
-{"level":"info","message":"Successfully created a comment with postId: 4812554e, commentId: 9f8e563c, content: d"}
+{"level":"info","message":"Successfully deleted a comment with postId: 831bb351, commentId: 5b5bd43b"}
 {"level":"info","message":"Received event: PostDeleted"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Received event: PostCreated"}
+{"level":"info","message":"Received event: PostCreated"}
