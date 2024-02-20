@@ -112,12 +112,12 @@ Make sure you have the following installed on your machine:
 ```
 
 4. Starting the Application:
-- You can run the application by running the Docker container (if you already installed one)
+- (Option 1) You can run the application by running the Docker container (if you already installed one)
 ```bash
   docker-compose up --build # --build flag ensures that the images are built if not already present.
 ```
 
-- You can also run the application by starting each microservices and the frontend client
+- (Option 2) You can also run the application by starting each microservices and the frontend client
 ```bash
    cd posts
    npm run dev
