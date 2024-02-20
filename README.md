@@ -18,6 +18,9 @@ The event-bus service is used to handle post/comment request notification. The u
 ### query service 
 The query service is used to handle the user's data management, including post and comment management. 
 
+### client
+The client is used render the web pages for the note taker app. 
+
 
 ## Features
 
