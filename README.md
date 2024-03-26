@@ -1,8 +1,8 @@
-# NoteTaker App
+# KusiNote App
 
 ## Overview
 
-The NoteTaker App is a microservices-based application that allows users to create, edit, and organize their notes. It is built using React.js for the frontend, Empress.js for microservices-based servers (posts, queries, comments, and event notifications), Winston for logging and monitoring, Jest for automated testing, and Docker for efficient containerization.
+The KusiNote App is a microservices-based application that allows users to create, edit, and organize their notes. It is built using React.js for the frontend, Empress.js for microservices-based servers (posts, queries, comments, and event notifications), Winston for logging and monitoring, Jest for automated testing, and Docker for efficient containerization.
 
 ## Project Structure
 
@@ -55,7 +55,7 @@ Make sure you have the following installed on your machine:
 
 1. Clone the repository:
    ```bash
-      git clone github.com/wifi1999/Note_Taker.git
+      git clone https://github.com/wifi1999/KusiNote.git
 
 2. Install the dependencies:  
    ```bash
