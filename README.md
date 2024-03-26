@@ -7,19 +7,19 @@ The KusiNote App is a microservices-based application that allows users to creat
 ## Project Structure
 
 ### post service 
-The post service is used to handle user's post management, user's post request from the frontend will be forward to the event-bus service for event notification management. 
+Manages user posts. Frontend post requests are forwarded to the event-bus service for event notification.
 
 ### comment service
-The comment service is used to handle user's comment management, user's comment request from the frontend will be forward to event-bus service for event notification management. 
+Manage user comments. Frontend comment requests are forwarded to the event-bus service for event notification.
 
 ### event-bus service 
-The event-bus service is used to handle post/comment request notification. The user's request from post service and comment service will be forward to query service for database management. 
+Manages post/comment request notifications. Requests from post and comment services are forwarded to the query service for database management
 
 ### query service 
-The query service is used to handle the user's data management, including post and comment management. 
+Manages user data, including posts and comments, connected with MongoDB database
 
 ### client
-The client is used render the web pages for the note taker app. 
+Renders web pages for the note-taking app.
 
 
 ## Features
@@ -28,16 +28,16 @@ The client is used render the web pages for the note taker app.
 - Crafted with React.js, the frontend provides an exceptionally intuitive and user-friendly experience.
 
 ### Microservices Architecture: 
-- Empress.js is employed to create microservices-based servers for posts, queries, comments, and event notifications.
+- Express.js is employed to create interconnected microservices-based servers for posts, queries, comments, and event notifications.
 
 ### Logging and Monitoring: 
-- Utilizes Winston for logging, monitoring, and tracking the performance and health of each microservice.
+- Integrated Winston API for a logging system, enabling real-time performance tracking across microservices
 
 ### Automated Testing: 
 - Jest is used for comprehensive and reliable automated testing across microservices to ensure robust testing coverage.
 
 ### Docker Containerization
-- Leveraged Docker to containerize each microservice, ensuring efficient resource utilization and streamlined dependency management.
+- Docker is leveraged to containerize each microservice, ensuring efficient resource utilization and streamlined dependency management.
 
 
 
