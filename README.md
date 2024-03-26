@@ -16,7 +16,7 @@ Manage user comments. Frontend comment requests are forwarded to the event-bus s
 Manages post/comment request notifications. Requests from post and comment services are forwarded to the query service for database management
 
 ### query service 
-Manages user data, including posts and comments, connected with MongoDB database
+Manages user data, including posts and comments, connected with MongoDB database through Mongoose operations
 
 ### client
 Renders web pages for the note-taking app.
