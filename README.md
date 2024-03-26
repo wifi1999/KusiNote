@@ -24,9 +24,6 @@ Renders web pages for the note-taking app.
 
 ## Features
 
-### User-Friendly Interface
-- Crafted with React.js, the frontend provides an exceptionally intuitive and user-friendly experience.
-
 ### Microservices Architecture: 
 - Express.js is employed to create interconnected microservices-based servers for posts, queries, comments, and event notifications.
 
